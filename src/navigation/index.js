@@ -1,13 +1,13 @@
 import React from 'react';
+import { AuthProvider } from './AuthProvider';
 import Routes from './Routes';
-import {AuthProvieder} from './AuthProvider';
 
 const Providers = () => {
   return (
-    <AuthProvieder>
+    <AuthProvider>
       <Routes />
-    </AuthProvieder>
-  )
+    </AuthProvider>
+  );
 }
 
 export default Providers;
