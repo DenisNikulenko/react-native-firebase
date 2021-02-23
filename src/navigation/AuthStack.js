@@ -1,11 +1,8 @@
 import React, {useState, useEffect} from 'react';
-import {View} from 'react-native';
 
 import {createStackNavigator} from '@react-navigation/stack';
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
-
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
 import OnboardingScreen from '../screens/OnboardingScreen';
 import LoginScreen from '../screens/LoginScreen';
